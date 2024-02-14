@@ -12,6 +12,16 @@ This includes data such as your current coordinates, direction, biome, in-game t
 
 ![](https://i.imgur.com/cP7nwRt.png)
 
+## Configuring
+
+The mod generates a config file `helper-gui.properties` that lets you configure where the info appears.
+
+Property | Possible values | Meaning
+---|---|---|
+renderOnLeftSide | true / false | Should this info be rendered on the top left or on the top right?
+screenBorderPaddingX | an integer | Distance in px from the left side (or right side) of the screen
+screenBorderPaddingY | an integer | Distance in px from the top side of the screen
+
 ## Compiling
 
 Run **gradlew build** on a terminal. A .jar file will be generated and placed in build/libs/.
